@@ -36,7 +36,7 @@ s16 bgm_seamless_always;
 BGMFade bgm_fade;
 ADXT adxt;
 BGMExecution bgm_exe;
-BGMRequest bgm_req;
+BGMRequest bgm_req ATTR_ALIGNED(sizeof(s32));
 s8 *sdbd[3];
 
 // bss
